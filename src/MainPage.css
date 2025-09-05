@@ -1,0 +1,101 @@
+
+
+/* Your form box */
+.form-container {
+  width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.form-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Input + textarea styling */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  resize: none;
+}
+
+/* Radio buttons spacing */
+.post-type {
+  margin-bottom: 20px;
+}
+
+.post-type label {
+  margin-right: 15px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Button styling */
+.post-btn {
+  width: 100%;
+  padding: 12px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.post-btn:hover {
+  background: black;
+}
+
+Article-text
+{
+  height: 200px;
+  border: 2px solid black ;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* allows user to resize if needed */
+  min-height: 80px; /* default smaller ones */
+}
+
+textarea.large {
+  min-height: 150px; /* bigger for article text */
+}
+
+.header{
+  background-color: grey;
+}
+
+/* Make body take full height and center content */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  background-color: #f5f5f5; /* light grey background */
+}
+
+/* Main container styling */
+.main-container {
+  width: 600px;  /* adjust as needed */
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
